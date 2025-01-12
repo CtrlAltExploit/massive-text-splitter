@@ -19,7 +19,7 @@
 Clone the repository and navigate to the project directory:
 
 ```bash
-git clone https://github.com/Vircsaft/massive-text-splitter.git
+git clone https://github.com/CtrlAltExploit/massive-text-splitter.git
 cd txt-splitter
 ```
 
