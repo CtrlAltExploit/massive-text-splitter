@@ -25,7 +25,7 @@ cd txt-splitter
 
 ## Usage
 ```bash
-python split_file.py --input_file "C:\path\to\wordlist.txt" --output_dir "C:\path\to\dir" --lines_per_chunk 100000000 --max_threads 16
+python massive-text-splitter.py --input_file "C:\path\to\wordlist.txt" --output_dir "C:\path\to\dir" --lines_per_chunk 100000000 --max_threads 16
 ```
 
 ## Parameters
@@ -40,7 +40,7 @@ python split_file.py --input_file "C:\path\to\wordlist.txt" --output_dir "C:\pat
 To split the file E:\rockyou2021.txt into 100 million-line chunks, saving to E:\Wordlists\rockyou2021, and using 16 threads:
 
 ```bash
-python split_file.py --input_file "E:\rockyou2021.txt" --output_dir "E:\Wordlists\rockyou2021" --lines_per_chunk 100000000 --max_threads 16
+python massive-text-splitter.py --input_file "E:\rockyou2021.txt" --output_dir "E:\Wordlists\rockyou2021" --lines_per_chunk 100000000 --max_threads 16
 ```
 **Note: 100 million lines are approximately 1.2 GB in size if each line contains a single word.**
 
